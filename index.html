@@ -1,110 +1,257 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Latest compiled and minified CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BasketStore</title>
+    <title>Loja Baska</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <header>
-        <div>
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="row bg-danger">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
                 <div class="container-fluid">
-                   <span class="navbar-text">Barra de Navegação</span>
+                  <a class="navbar-brand" href="javascript:void(0)"><img src="http://minutoligado.com.br/wp-content/uploads/2016/02/NBA-logo.png" alt="Logotipo" width="50" ></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Contato</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Equipe</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Ajuda</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="text" placeholder="Pesquisar">
+                      <button class="btn btn-primary" type="button">Pesquisar</button>
+                    </form>
+                  </div>
                 </div>
               </nav>
               
-              <div class="container-fluid mt-3">
-              </div>
-            </div>
         </div>
-            <div>
-                <div class="row">
-                    <div class="col"></div>
-                    <div class="col">
-                        <button type="button" class="btn btn-outline-warning">Regatas</button>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-outline-warning">Camisas</button>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-outline-warning">Feminino</button>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-outline-warning">Shorts</button>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-outline-warning">Bolas</button>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-outline-warning">Acessorios</button>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-outline-warning">Infantil</button>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-outline-warning">Carrinho</button>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-outline-warning">Perfil</button>
-                        </button>
-                    </div>
-                    <div class="col"></div>
-            </div>
-   
-            </div>
-            <div class="row">
-                <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div>
+            <div class="row bg-primary">
+                <div class="col"></div>
+                <div class="col"><button type="button" class="btn btn-outline-info">Regatas</button></div>
+                <div class="col"><button type="button" class="btn btn-outline-info">Camisas</button></div>
+                <div class="col"><button type="button" class="btn btn-outline-info">Feminino</button></div>
+                <div class="col"><button type="button" class="btn btn-outline-info">infantil</button></div>
+                <div class="col"><button type="button" class="btn btn-outline-info">Acessorios</button></div>
+                <div class="col"><button type="button" class="btn btn-outline-info">Bolas</button></div>
+                <div class="col"><button type="button" class="btn btn-outline-info">Carrinho</button></div>
+                <div class="col"><button type="button" class="btn btn-outline-info">Perfil</button></div>
+                <div class="col">
+            </div> 
 
-    <!-- Indicators/dots -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    </div>
-    
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="la.jpg" alt="Los Angeles" class="d-block" style="width:100%">
-        <div class="carousel-caption">
-          <h3>Los Angeles</h3>
-          <p>We had such a great time in LA!</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="https://projetoinfluencer.vteximg.com.br/arquivos/ids/4081016-640-960/Regata-Mitchell---Ness-Swingman-Jersey-Chicago-Bulls-Scottie-Pippen-Vermelha.jpg?v=637924220947830000" alt="Chicago" class="mx-auto d-block" style="width:50%">
-        <div class="carousel-caption">
-          <h3>Chicago</h3>
-          <p>Thank you, Chicago!</p>
-        </div> 
-      </div>
-      <div class="carousel-item">
-        <img src="ny.jpg" alt="New York" class="d-block" style="width:100%">
-        <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>We love the Big Apple!</p>
-        </div>  
-      </div>
-    </div>
-    
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>
+        <div>
+            <div class="row bg-light">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+                    
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/001/226/115/products/screenshot_211-1f70cdc1241e9b64db16003692104136-640-0.png" alt="Los Angeles" class="mx-auto d-block" style="width:25%">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://artwalk.vteximg.com.br/arquivos/ids/210606-1000-1000/Jersey-Nike-NBA-Swingman-Masculina-Branco.jpg?v=636868713780100000" alt="Chicago" class="mx-auto d-block" style="width:25%">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/976/005/products/rsnba351-45c8a99b477b5c409e16159035266970-640-0.jpg" alt="New York" class="mx-auto d-block" style="width:25%">
+                      </div>
+                    </div>
+                    
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
             </div>
+        </div>
        
+        <!--container-->
+        <section class="container bg-light">
+        <!--titulo-->    
+        <h1 class="text-center">Mais Pupulares</h1>
+
+            <!--Listagem dos produtos-->
+            <article class="row">
+
+                <!--produtos-->
+                <section class="produtos col-md-3">
+                  <img src="https://artwalk.vteximg.com.br/arquivos/ids/217777-1000-1000/Jersey-Nike-NBA-Gsw-Swingman-Road-Masculina-Azul.jpg?v=637078629972530000" class="img-fluid" alt="jersey curry">
+
+                    <article class="produtos-itens">
+                        <h2>Regata Golden State Warrios Sthepen Curry</h2>
+
+                        <div class="produtos-stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                            
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                              
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </div>
+
+                        <strong class="produtos-preco">
+                            R$ 350,00
+                        </strong>
+
+                    </article>
+                </section>
+                <!--fim produtos-->
+                
+                                <!--produtos-->
+                <section class="produtos col-md-3">
+                  <img src="http://static.lojanba.com/produtos/regata-authentic-nike-chicago-bulls-road-jordan-23-/68/HZM-0350-068/HZM-0350-068_zoom1.jpg?ts=1602581048" class="img-fluid" alt="jersey bulls">
+
+                    <article class="produtos-itens">
+                        <h2>Regata Chicago Bulls Michael Jordan</h2>
+
+                        <div class="produtos-stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                            
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                              
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </div>
+
+                        <strong class="produtos-preco">
+                            R$ 550,00
+                        </strong>
+
+                    </article>
+                </section>
+                <!--fim produtos-->
+
+                                <!--produtos-->
+                                <section class="produtos col-md-3">
+                                    <img src="https://imgnike-a.akamaihd.net/1300x1300/014078ID.jpg" class="img-fluid" alt="jersey Lebron black">
+                  
+                                      <article class="produtos-itens">
+                                          <h2>Regata Lakers Classic Edition Lebron James</h2>
+                  
+                                          <div class="produtos-stars">
+                                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                              
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                  
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                  
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                          </div>
+                  
+                                          <strong class="produtos-preco">
+                                              R$ 450,00
+                                          </strong>
+                  
+                                      </article>
+                                  </section>
+                                  <!--fim produtos-->
+
+                                <!--produtos-->
+                                <section class="produtos col-md-3">
+                                    <img src="https://images.tcdn.com.br/img/img_prod/740066/regata_nike_boston_celtics_icon_edition_2020_21_swingman_587_1_d7d4dbd88740b14859236ad93748ed6f.jpg" class="img-fluid" alt="jersey celtics">
+                  
+                                      <article class="produtos-itens">
+                                          <h2>Regata Boston Celtics Icon Edition Jayson Tatum</h2>
+                  
+                                          <div class="produtos-stars">
+                                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                              
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                  
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                                
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                  
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                </svg>
+                                          </div>
+                  
+                                          <strong class="produtos-preco">
+                                              R$ 377,00
+                                          </strong>
+                  
+                                      </article>
+                                  </section>
+                                  <!--fim produtos-->
+                                                  
+
+            </article>
+            <!--fim Listagem dos produtos-->
+        </section>
+        <!--fim container-->
+        <div class="row">
+            
+        </div>
+
     </header>
     <main>
 
